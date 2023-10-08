@@ -130,6 +130,7 @@ body {
     outline: none;
     font-size: 16px;
     padding-right: 28px;
+    color: #fff;
 }
 
 .input-box label{
@@ -296,8 +297,8 @@ body {
 .item1{
     position: absolute;
     top: 0px;
-    left: 0;
-    width: 58%;
+    left: 145px;
+    width: 50%;
     height: 100%;
     color: #000000;
     background: transparent;
@@ -310,7 +311,7 @@ body {
 .foto .gambar img{ 
     position: relative;
     top: 100px;
-    left: 750px;
+    left: 850px;
     height: auto;
     width: 40%;
 }
@@ -370,6 +371,12 @@ body {
     align-items: center;
 }
 
+.sub-title-1 {
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
 
 .services-list{
     display: flex;
@@ -388,7 +395,67 @@ body {
     font-size: 1px;
     border: 2px solid #000000;
     padding-top: 40px;
-    margin-right: 55px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+#services{
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.services1-list{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.services1-list div{
+    background-color: #fffdfd;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1px;
+    border: 2px solid #000000;
+    padding-top: 40px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+#services2{
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.services2-list{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.services2-list div{
+    background-color: #fffdfd;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1px;
+    border: 2px solid #000000;
+    padding-top: 40px;
+    margin-right: 25px;
     margin-bottom: 20px;
     border-radius: 30px;
     transition: background 0.5s, transform 0.5s;
@@ -399,7 +466,28 @@ body {
     height: auto;
 }
 
+.services1-list div img{
+    width: 50%;
+    height: auto;
+}
+
+.services2-list div img{
+    width: 50%;
+    height: auto;
+}
+
 .services-list div h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services1-list div h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services2-list div h2{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -427,4 +515,20 @@ body {
 
 .container2 .text{
     text-align: center;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
 }
