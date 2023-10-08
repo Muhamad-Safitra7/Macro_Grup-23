@@ -311,7 +311,7 @@ body {
 .foto .gambar img{ 
     position: relative;
     top: 100px;
-    left: 850px;
+    left: 800px;
     height: auto;
     width: 40%;
 }
@@ -376,6 +376,16 @@ body {
     text-align: left;
     font-size: 20px;
     padding-bottom: 0px;
+}
+
+.sub-title3 {
+    position: relative;
+    top: -60px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-list{
@@ -463,17 +473,20 @@ body {
 
 .services-list div img{
     width: 60%;
-    height: auto;
+    height: 90px;
 }
 
 .services1-list div img{
+    position: relative;
+    top: -5px;
+    left: 5px;
+    height: 120px;
     width: 50%;
-    height: auto;
 }
 
 .services2-list div img{
     width: 50%;
-    height: auto;
+    height: 90px;
 }
 
 .services-list div h2{
@@ -499,8 +512,7 @@ body {
 
 .btn2 {
     position: relative;
-    top: 0;
-    left: 0;
+    border-bottom: 10px;
     width: 40%;
     height: 30px;
     outline: none;
@@ -521,6 +533,55 @@ body {
     margin-bottom: 10px;
 }
 
+.About2{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.About2 div{
+    background-color: #fffdfd;
+    width: 190px;
+    height: 60px;
+    font-size: 1px;
+    border: 2px solid #000000;
+    padding-top: 9px;
+    margin-left: 40px;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+
+}
+
+.About2 div img{
+    position: relative;
+    top: -5px;
+    left: 5px;
+    width: 30%;
+    border: 2px solid #000000;
+    border-radius: 60px;
+    height: 50px;
+}
+
+.About2 div h2{
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    border: 2px 1px solid #000000;
+    top: -50px;
+    left: 25px;
+}
+
+.About2 div h1{
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: -50px;
+    left: 25px;
+}
+
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -531,4 +592,27 @@ footer {
 footer a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.btn3 {
+    position: relative;
+    top: -120px;
+    left: 1080px;
+    width: 140px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+.btn3 i{
+    font-size: 28px;
+    position: relative;
+    top: 5px;
+}
+.sub-title-1 i{
+    position: relative;
+    font-size: 28px;
+    top: 5px;
 }
