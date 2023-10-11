@@ -616,3 +616,94 @@ footer a {
     font-size: 28px;
     top: 5px;
 }
+
+/*/notifikasi/*/
+.services4{
+    position: relative;
+    margin-top: 110px;
+    height: auto;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    background-color: #fffdfd;
+}
+
+.border {
+    position: relative;
+    top: 0;
+    width: 90%;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.border .sub-title4{
+    position: relative;
+    top: -40px;
+    text-align: center;
+}
+
+.services4-list {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    align-items: center;
+    margin-top: -30px;
+  }
+  
+  .services4-list div {
+    background-color: #fffdfd;
+    width: 500px;
+    margin: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 11px;
+}
+
+.border1 {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fffdfd;
+    border:1px solid #000000;
+}
+
+.border1 img{
+    position: relative;
+    top: 200px;
+    left: 85px;
+    width: 20%;
+    height: 200px;
+    border: 2px solid #000000;
+}
+
+.services5-list{
+    position: relative;
+    top: -120px;
+    width: 835px;
+    left: 420px;
+}
+
+.services5-list h1{
+    text-align: center;
+}
+
+.services5-list p{
+    position: relative;
+    margin-top: 50px;
+    text-align: justify;
+
+}
+
+.btn4{
+    position: relative;
+    top: 320px;
+    margin-left: 880px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 30px;
+    background-color: #fffdfd;
+    border-radius: 17px;
+}
