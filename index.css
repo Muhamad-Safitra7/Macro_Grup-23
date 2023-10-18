@@ -912,8 +912,14 @@ footer a {
 .profil5{
     width: 100px;
     height: 100vh;
+    background-color: #fffdfd;
 }
 
+.profila{
+    width: 100px;
+    height: 100vh;
+    background-color: #fffdfd;
+}
 .borderb{
     position: relative;
     top: 120px;
@@ -966,4 +972,249 @@ footer a {
 
 .card1{
     height: 35%;
+}
+
+.borderc{
+    position: relative;
+    text-align: center;
+    width: 79rem;
+    height: auto;
+}
+
+.borderc h1{
+    position: relative;
+    top: 35px;
+}
+
+.tmb6 {
+    position: relative;
+    top: 560px;
+    left: 1150px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    color: #fffdfd;
+    background-color: #000000;
+    border-radius: 17px;
+    border: 1px solid #000000;
+    box-shadow:2px 2px 2px #000000;
+
+}
+
+.profil6{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content:first baseline;
+}
+
+.profil5 div{
+    position: relative;
+    top: 40px;
+    left: 48px;
+    margin-right: 182px;
+}
+
+.profil5 div p{
+    width: 340px;
+    padding-top: 10px;
+    margin-top: -30px;
+    font-size: 20px;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.profil5 div button{
+    position: relative;
+    top: -60px;
+    left: 260px;
+    width: 90px;
+    height: 52px;
+    border: none;
+    color: #fffdfd;
+    border-radius: 10px;
+    background-color: #5785db;
+}
+
+.borderd{
+    margin-top: 80px;
+    margin-left: 240px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 55rem;
+    height: 25rem;
+}
+
+.borderd div img{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 35%;
+    height: 14rem;
+}
+
+.class{
+    position: relative;
+    top: -110px;
+    left: 25rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    align-items: center;
+    text-align: center;
+}
+
+.class p{
+    border-radius: none;
+}
+
+.profil7 img{
+    position: relative;
+    top: 70px;
+    right: 420px;
+    width: 30%;
+    height: 18rem;
+    border:1px solid #000000;
+}
+.profil7 div input{
+    position: relative;
+    top: -210px;
+    left: 260px;
+    width: 65%;
+    border-radius: 10px;
+    border:1px solid #000000;
+    height: 200px;
+}
+
+.profil7 div h1{
+    position: relative;
+    top: -220px;
+    margin-left: 370px;
+}
+
+.tmb7{
+    position: relative;
+    top: -70px;
+    left: -560px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fffdfd;
+    background-color: #5785db;
+    border: none;
+}
+
+.tmb8{
+    position: relative;
+    top: -210px;
+    right: 70px;
+    width: 85px;
+    height: 30px;
+    color: #fffdfd;
+    border: none;
+    background-color: #5785db;
+    border-radius: 20px;
+}
+.kotak1{
+    position: relative;
+    top: 50px;
+    right: 250px;
+    padding-bottom: 170px;
+}
+.ide {
+    width: 25%;
+    border:1px solid #000000;
+    height: 80px;
+}
+.profil8 img{
+    position: relative;
+    top: 70px;
+    right: 420px;
+    width: 30%;
+    height: 18rem;
+    border:1px solid #000000;
+}
+.profil8 div input{
+    position: relative;
+    top: -210px;
+    left: 220px;
+    width: 65%;
+    border-radius: 10px;
+    border:1px solid #000000;
+    height: 200px;
+}
+.profil8 div h1{
+    position: relative;
+    top: -220px;
+    margin-left: 370px;
+}
+.tmb9{
+    position: relative;
+    top: -170px;
+    right: 300px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fffdfd;
+    background-color: #5785db;
+    border: none;
+}
+
+.tma1{
+    position: relative;
+    top: -210px;
+    left: 260px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fffdfd;
+    background-color: #5785db;
+    border: none;
+}
+.tma2{
+    position: relative;
+    top: -80px;
+    right: 630px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fffdfd;
+    background-color: #5785db;
+    border: none;
+}
+.profil8 div p{
+    position: relative;
+    top: -180px;
+    left: 670px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #fffdfd;
+}
+
+.profil9 img{
+    position: relative;
+    top: 70px;
+    right: 420px;
+    width: 30%;
+    height: 18rem;
+    border:1px solid #000000;
+}
+.profil9 div p{
+    position: relative;
+    top: -210px;
+    left: 220px;
+    width: 65%;
+    border-radius: 10px;
+    border:1px solid #000000;
+    height: 200px;
+}
+.profil9 div h1{
+    position: relative;
+    top: -220px;
+    margin-left: 370px;
 }
