@@ -11,10 +11,9 @@
     <header>
         <!-- Navbar start-->
         <nav class="header">
-            <a href="Homepage.html" class="navbar-logo">
+            <a href="#" class="navbar-logo">
                 <div class="logo"><img src="Foto Homepage/navbar logo web.png"></div>
             </a>
-
             <div class="navbar">
                 <a href="Homepage.html">Home</a>
                 <a href="sertificate.html">Sertificate</a>
@@ -22,10 +21,14 @@
                 <a href="notifikasi.html">Notification</a>
             </div>
 
-            <div class="Profil">
-                <a href="#" id="Search"><i class='bx bxs-user' style='color:#fffdfd'></i></a>
-                <a href="login.html" id="Search"><i class='bx bx-log-out' style='color:#fffdfd'></i></a>
-            </div>
+
+            <div class="dropdown Profil">
+                <i class='bx bxs-user' style='color:#fffdfd'></i>
+                <div class="dropdown-content">
+                    <a href="#" id="data"><i class='bx bxs-user' style='color:#000000; font-size: 17px;'> Profile Data</i></a>
+                        <a href="login.html" id="logout"><i class='bx bx-log-out' style='color:#000000; font-size: 17px;'> Logout</i></a>    
+                    </div>
+                </div>
         </nav>
         <!-- Navbar end-->
     </header>
@@ -34,8 +37,8 @@
             <div class="border2">
                 <br>
                 <br>
-                <img src="Foto Homepage/new gojek.png">
-                <button class="btn4">Back </button>
+                <img src="Foto sertificate/cisco_serti.png">
+                <button id="ButtonBack" class="btn4">Back </button>
                 <div class="services6-list">
                     <div class="sub-title5">
                         <p>PT Aplikasi Karya Anak Bangsa
@@ -64,4 +67,9 @@
         </ul>
     </footer>
 </body>
+<script>
+    document.getElementById("ButtonBack").addEventListener("click", function() {
+window.location.href = "sertificate.html"; // Replace with your desired URL
+});
+</script>
 </html>

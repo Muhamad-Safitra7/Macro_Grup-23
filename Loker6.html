@@ -33,25 +33,33 @@
         <!-- Navbar end-->
     </header>
     <section>
-        <div class="services6" id="services7">
-            <div class="border2">
+        <div class="services7" id="services7">
+            <div class="border3">
                 <br>
                 <br>
-                <img src="Foto sertificate/oracle_serti.png">
+                <img src="Foto Jobs/citralaksamana_logo.jpg">
                 <button id="ButtonBack" class="btn4">Back </button>
                 <div class="services6-list">
                     <div class="sub-title5">
-                        <p>PT Aplikasi Karya Anak Bangsa
+                        <p>Junior IT
                             <br>
-                            Category : Developer
+                            PT Citra Laksamana Utama
                             <br>
-                            Price : Free
-                        </p><br>
+                            Bogor
+                        </p><br><br>
                         <button>Apply</button>
+                        <button id="Go" class="bb">View Company Profile</button>
                     </div>
-                    <div>
-                        <p>PT Application Karya Anak Bangsa or better known as Gojek is one of the leading technology companies in Indonesia. Founded in 2010 by Nadiem Makarim, Kevin Aluwi, and Michaelangelo Moran, Gojek first emerged as a ride-sharing service, allowing users to order motorbikes or cars for their trips. However, over time, Gojek developed into an integrated service platform that provides a variety of services, including food delivery, online shopping, goods delivery and financial services.</p>
-                        
+                    <div class="ketentuan">
+                        <p>Requirements:</p>
+                        <li>Minimum education D3 Informatics Management, Informatics Engineering and Informatics Systems.</li>
+                        <li>Fresh Graduated Wellcome (junior staff).</li>
+                        <li>Experience in the field is preferred to fill the senior staff section.</li>
+                        <li>Maximum age 28 years (for junior staff).</li>
+                        <li>Maximum age 35 years (for senior staff).</li>
+                        <li>Understand application or system installation.</li>
+                        <li>Can work in a team.</li>
+                        <li>Not currently under contract with another company.</li>
                     </div>
                 </div>
             </div>
@@ -68,8 +76,20 @@
     </footer>
 </body>
 <script>
-    document.getElementById("ButtonBack").addEventListener("click", function() {
-window.location.href = "sertificate.html"; // Replace with your desired URL
-});
+        var backButton = document.getElementById("ButtonBack");
+        var companyProfileButton = document.getElementById("Go");
+
+        // Add event listener to the "Apply" button
+        backButton.addEventListener("click", function() {
+            // Redirect to page 1 when the "Apply" button is clicked
+            window.location.href = "job.html"; // Replace with the actual URL of page 1
+        });
+
+        // Add event listener to the "View Company Profile" button
+        companyProfileButton.addEventListener("click", function() {
+            // Redirect to page 2 when the "View Company Profile" button is clicked
+            window.location.href = "Perusahaan6.html"; // Replace with the actual URL of page 2
+        });
+
 </script>
 </html>
