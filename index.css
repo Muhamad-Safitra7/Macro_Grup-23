@@ -28,7 +28,7 @@ body {
     left: 0;
     width: 58%;
     height: 100%;
-    color: #fff;
+    color: #fffdfd;
     background-color: rgb(253, 253, 253);
     padding: 80px;
     display: flex;
@@ -75,7 +75,7 @@ body {
     right: 0;
     width: calc(100% - 58%);
     height: 100%;
-    color: #fff;
+    color: #fffdfd;
 }
 
 .login-section .form-box{
@@ -117,7 +117,7 @@ body {
 .form-box .input-box{
     width: 340px;
     height: 50px;
-    border-bottom: 2px solid#fff;
+    border-bottom: 2px solid#fffdfd;
     margin: 30px 0;
     position: relative;
 }
@@ -130,7 +130,7 @@ body {
     outline: none;
     font-size: 16px;
     padding-right: 28px;
-    color: #fff;
+    color: #fffdfd;
 }
 
 .input-box label{
@@ -165,17 +165,17 @@ body {
 }
 
 .remember-password label input{
-    accent-color: #fff;
+    accent-color: #fffdfd;
     margin-right: 3px;
 }
 
 .remember-password a{
-    color: #fff;
+    color: #fffdfd;
     text-decoration: underline;
 }
 
 .btn {
-    background: #fff;
+    background: #fffdfd;
     width: 100%;
     height: 45px;
     outline: none;
@@ -184,7 +184,7 @@ body {
     cursor: pointer;
     background: #5785db;
     font-size: 16px;
-    color: #fff;
+    color: #fffdfd;
     box-shadow: rgba(0, 0, 0, 0.4);
 }
 
@@ -205,7 +205,7 @@ body {
     cursor: pointer;
     background: #b1acac;
     font-size: 16px;
-    color: #fff;
+    color: #fffdfd;
     margin: 20px;
     box-shadow: rgba(0, 0, 0, 0.4);
 }
@@ -255,7 +255,7 @@ body {
 .navbar a{
     position: relative;
     font-size: 16px;
-    color: #fff;
+    color: #fffdfd;
     margin-right: 30px;
     text-decoration: none;
 }
@@ -266,7 +266,7 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: #fffdfd;
     bottom: -5px;
     border-radius: 5px;
     transform: translateY(10px);
@@ -419,8 +419,11 @@ body {
 }
 
 .services1-list{
+    position: relative;
+    top: -30px;
     display: flex;
     height: auto;
+    width: 75rem;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
@@ -435,6 +438,7 @@ body {
     font-size: 1px;
     border: 2px solid #000000;
     padding-top: 40px;
+    padding-bottom: 20px;
     margin-right: 25px;
     margin-bottom: 20px;
     border-radius: 30px;
@@ -449,8 +453,11 @@ body {
 }
 
 .services2-list{
+    position: relative;
     display: flex;
+    width: 75rem;
     height: auto;
+    top: -30px;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
@@ -472,6 +479,7 @@ body {
 }
 
 .services-list div img{
+    margin-top: -20px;
     width: 60%;
     height: 90px;
 }
@@ -776,11 +784,186 @@ footer a {
     color: #000000;
 }
 
-
 .ketentuan{
     position: relative;
     top: 25px;
     left: -365px;
     font-size: 15px;
     border: 1px solid #000000;
+}
+
+.profil3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.borderp{
+    position: relative;
+    top: 135px;
+    right: 4px;
+    margin-left: 40px;
+    width: 20rem;
+    height: 28rem;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.profil2 img{
+    border-radius: 480px;
+    width: 50%;
+    height: 155px;
+    border: 1px solid #000000;
+}
+
+.profil2{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    align-items: center;
+    text-align: center;
+}
+
+.tmb {
+    margin: 5px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5785db;
+}
+
+.tmb1 {
+    margin: 5px;
+    width: 210px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5785db;
+}
+
+.tmb2 {
+    margin: 5px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5785db;
+}
+
+.bordera{
+    position: relative;
+    top: -310px;
+    left: 370px;
+    margin-left: 40px;
+    width: 48rem;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.profil1{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.profil1 h1{
+    margin-top: 20px;
+}
+.profil1 input{
+    position: relative;
+    width: 540px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.profil1 a{
+    position: relative;
+    left: 17rem;
+    color: #000000;
+}
+
+.kotak input{
+    position: relative;
+    padding-left: 20px;
+}
+
+.tmb3{
+    margin: 5px;
+    width: 210px;
+    border-radius: 20px;
+    border: none;
+    color: #fffdfd;
+    height: 30px;
+    margin-left: -20px;
+    background-color: #000000;
+}
+
+.tmb4{
+    margin: 5px;
+    width: 210px;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    color: #fffdfd;
+    margin-left: 200px;
+    background-color: #5785db;
+}
+
+.profil5{
+    width: 100px;
+    height: 100vh;
+}
+
+.borderb{
+    position: relative;
+    top: 120px;
+    left: 480px;
+    width: 24rem;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.profil4{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.profil4 button{
+    margin: 20px;
+    width: 210px;
+    border-radius: 20px;
+    border: none;
+    color: #fffdfd;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5785db;
+}
+
+
+.tmb5 {
+    position: relative;
+    top: 420px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #fffdfd;
+    border-radius: 17px;
+    border: 1px solid #000000;
+    box-shadow:2px 2px 2px #000000;
+
+}
+
+.card{
+    height: 30%;
+}
+
+.card1{
+    height: 35%;
 }
