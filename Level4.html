@@ -11,50 +11,98 @@
     <header>
         <!-- Navbar start-->
         <nav class="header">
-            <a href="Homepage.html" class="navbar-logo">
+            <a href="#" class="navbar-logo">
                 <div class="logo"><img src="Foto Homepage/navbar logo web.png"></div>
             </a>
-
             <div class="navbar">
-                <a href="Homepage.html">Home</a>
-                <a href="sertificate.html">Sertificate</a>
-                <a href="job.html">Jobs</a>
-                <a href="notifikasi.html">Notification</a>
+                <a href="Homepage.html" style="font-size: 16px; font-weight:900;">Home</a>
+                <a href="sertificate.html" style="font-size: 16px; font-weight:900;">Sertificate</a>
+                <a href="job.html" style="font-size: 16px; font-weight:900;">Jobs</a>
+                <a href="notifikasi.html" style="font-size: 16px; font-weight:900;">Notification</a>
             </div>
 
-            <div class="Profil">
-                <a href="#" id="Search"><i class='bx bxs-user' style='color:#fffdfd'></i></a>
-            </div>
+
+            <div class="dropdown Profil">
+                <i class='bx bxs-user' style='color:#fffdfd'></i>
+                <div class="dropdown-content">
+                    <a href="Profil1.html" id="data"><i class='bx bxs-user' style='color:#000000; font-size: 17px;'> Profile Data</i></a>
+                        <a href="login.html" id="logout"><i class='bx bx-log-out' style='color:#000000; font-size: 17px;'> Logout</i></a>    
+                    </div>
+                </div>
         </nav>
         <!-- Navbar end-->
     </header>
     <section>
-        <div class="profil6" id="profil">
-            <button class="tmb6" >Submit</button>
+        <div class="profil8">
+            <button id="asdasd" class="tmb13" >Submit</button>
             <div class="borderc">
-                <h1>Stage Levelling 4- Evindentiary Test </h1>
+                <br>
+                <br>
+                <h2 style="margin-left: 150px; font-weight:900;">Stage Levelling 4- Evindentiary Test </h2>
                 <div class="profil8">
                     <img src="Foto level/stage4.jpg">
                     <div>
-                        <h1>Description</h1>
+                        <br>
+                        <br>
+                        <h1 style="font-weight:900;">Description</h1>
+                        <br>
+                        <br>
                         <input type="text" placeholder="Silahkan input deskripsi penjelasan mengenai video yang diupload">
+                        <br>
                         <p>Program</p>
                         <button class="tmb9">Upload<i class='bx bxs-pencil' style='color:#fffdfd'  ></i></button>
                         <button class="tma1">Upload File<i class='bx bxs-pencil' style='color:#fffdfd'  ></i></button>
-                        <button class="tma2">Back<i class='bx bxs-pencil' style='color:#fffdfd'  ></i></button>
+                        <button id = "ButtonBack1" class="tma2">Back<i class='bx bxs-pencil' style='color:#fffdfd'  ></i></button>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </section>
 
-    <footer>
-        <p>&copy; Our Contact</p>
-        <ul>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </ul>
-    </footer>
+    <section class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <h1 class="footer-test">Our Contact</h1>
+                <br>
+                <p><i class='bx bx-envelope' style="font-size: 14px;"> E-mail : CareerConnect@gmail.com</i></p>
+                <br>
+                <p><i class='bx bxs-phone' style="font-size: 14px;"> Hotline : +628-175-150-235</i></p>
+                <br>
+                <p><i class='bx bxs-map' style="font-size: 14px;"> Address : Cilik Riwut Street No.23 Bekasi</i></p>
+                <br>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-follow">Follow Us</h3>
+                <i style="font-size: 30px;" class='bx bxl-facebook-circle'></i>
+                <i style="font-size: 30px;" class='bx bxl-twitter'></i>
+                <i style="font-size: 30px;" class='bx bxl-instagram' ></i>
+                <i style="font-size: 30px;" class='bx bxl-whatsapp' ></i>
+            </div>
+            </div>
+    </section>  
 </body>
+
+<script>
+    var backButton1 = document.getElementById("ButtonBack1");
+    var asdasd1 = document.getElementById("asdasd");
+
+    // Add event listener to the "Apply" button
+    backButton1.addEventListener("click", function() {
+        // Redirect to page 1 when the "Apply" button is clicked
+        window.location.href = "level3.html"; // Replace with the actual URL of page 1
+    });
+
+    // Add event listener to the "View Company Profile" button
+    asdasd1.addEventListener("click", function() {
+        // Redirect to page 2 when the "View Company Profile" button is clicked
+        window.location.href = "pemberitahuan4.html"; // Replace with the actual URL of page 2
+    });
+
+</script>
+
 </html>

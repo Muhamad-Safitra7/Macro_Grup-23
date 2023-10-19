@@ -11,34 +11,38 @@
     <header>
         <!-- Navbar start-->
         <nav class="header">
-            <a href="Homepage.html" class="navbar-logo">
+            <a href="#" class="navbar-logo">
                 <div class="logo"><img src="Foto Homepage/navbar logo web.png"></div>
             </a>
-
             <div class="navbar">
-                <a href="Homepage.html">Home</a>
-                <a href="sertificate.html">Sertificate</a>
-                <a href="job.html">Jobs</a>
-                <a href="notifikasi.html">Notification</a>
+                <a href="Homepage.html" style="font-size: 16px; font-weight:900;">Home</a>
+                <a href="sertificate.html" style="font-size: 16px; font-weight:900;">Sertificate</a>
+                <a href="job.html" style="font-size: 16px; font-weight:900;">Jobs</a>
+                <a href="notifikasi.html" style="font-size: 16px; font-weight:900;">Notification</a>
             </div>
 
-            <div class="Profil">
-                <a href="#" id="Search"><i class='bx bxs-user' style='color:#fffdfd'></i></a>
-            </div>
+
+            <div class="dropdown Profil">
+                <i class='bx bxs-user' style='color:#fffdfd'></i>
+                <div class="dropdown-content">
+                    <a href="Profil1.html" id="data"><i class='bx bxs-user' style='color:#000000; font-size: 17px;'> Profile Data</i></a>
+                        <a href="login.html" id="logout"><i class='bx bx-log-out' style='color:#000000; font-size: 17px;'> Logout</i></a>    
+                    </div>
+                </div>
         </nav>
         <!-- Navbar end-->
     </header>
     <section>
         <div class="services5" id="services5">
-            <div class="border1">
+            <div class="border7">
                 <br>
                 <br>
-                <img src="Foto Homepage/garuda.jpg">
-                <button class="btn4">Back </button>
+                <img src="Foto Homepage/indosat.png">
+                <button id="ButtonBack" class="btn4" >Back </button>
                 <div class="services5-list">
                     <div>
-                        <h1 class="sub-title5">PT Garuda Indonesia (Persero) Tbk</h1>
-                        <p>Garuda Indonesia, or PT Garuda Indonesia (Persero) Tbk., is the national airline of Indonesia and one of the largest airlines in Southeast Asia. Garuda Indonesia was founded in 1947 as Indonesia's national airline. Since then, the company has experienced various stages of development and expansion. Garuda Indonesia is a member of the star airline alliance "SkyTeam", which includes several of the world's leading airlines. This membership allows Garuda to offer better global connectivity to its passengers. Garuda Indonesia has a modern fleet consisting of sophisticated aircraft including Boeing 777, Airbus A330, Boeing 737, and others. This fleet allows Garuda to provide comfortable and safe flight services.</p>
+                        <h1 class="sub-title5">PT Indosat Tbk</h1>
+                        <p>Indosat Ooredoo, or PT Indosat Tbk., is one of the leading telecommunications operators in Indonesia. The company is part of the Ooredoo group, based in Qatar, and provides a variety of telecommunications services, including mobile, landline and data services. Indosat Ooredoo was founded in 1967 as the first telecommunications operator in Indonesia. Since then, this company has grown rapidly and become one of the key players in the telecommunications industry in Indonesia. Indosat Ooredoo offers a variety of cellular services, including prepaid and postpaid services, for individual and business customers. They also provide 4G and 5G services to improve data connectivity. The company has an extensive network infrastructure, covering all regions of Indonesia. This includes thousands of cell towers and other telecommunications facilities.</p>
                         
                     </div>
                 </div>
@@ -46,13 +50,31 @@
         </div>
     </section>
 
-    <footer>
-        <p>&copy; Our Contact</p>
-        <ul>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </ul>
-    </footer>
+    <section class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <h1 class="footer-test">Our Contact</h1>
+                <br>
+                <p><i class='bx bx-envelope' style="font-size: 14px;"> E-mail : CareerConnect@gmail.com</i></p>
+                <br>
+                <p><i class='bx bxs-phone' style="font-size: 14px;"> Hotline : +628-175-150-235</i></p>
+                <br>
+                <p><i class='bx bxs-map' style="font-size: 14px;"> Address : Cilik Riwut Street No.23 Bekasi</i></p>
+                <br>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-follow">Follow Us</h3>
+                <i style="font-size: 30px;" class='bx bxl-facebook-circle'></i>
+                <i style="font-size: 30px;" class='bx bxl-twitter'></i>
+                <i style="font-size: 30px;" class='bx bxl-instagram' ></i>
+                <i style="font-size: 30px;" class='bx bxl-whatsapp' ></i>
+            </div>
+            </div>
+    </section>
+    <script>
+        document.getElementById("ButtonBack").addEventListener("click", function() {
+    window.location.href = "homepage.html#services"; // Replace with your desired URL
+});
+    </script>
 </body>
 </html>
